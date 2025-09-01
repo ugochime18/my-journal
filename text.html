@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ugo`s Journal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>My Journal</h2>
+  <div class="form-container">
+    <input type="text" id="entrytitle" placeholder="Enter title" required>
+    <input type="date" id="entrydate" required>
+    <textarea id="entrythoughts" placeholder="Enter your thoughts" required></textarea>
+    <button id="addEntryBtn">Enter</button>
+  </div>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search entries...">
+  </div>
+  <div id="entriesContainer"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

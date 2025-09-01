@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 10px;
+  background: rgba(0,124,128, 0.887);
+}
+
+h2 {
+  text-align: center;
+  color: black; 
+}
+
+.form-container {
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e6f7f7;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background: rgba(0,124,128, 0.887);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+}
+
+
+.journal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.journal-entry {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  padding: 15px;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.entry-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #007c80;
+}
+
+.entry-date {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.entry-section {
+  margin-top: 5px;
+}
+
+.entry-details {
+  margin: 0;
+  color: #222;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  background:#007c80;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+
+}
+
+.delete-btn:hover {
+  background: black;
+}
+
+@media (max-width: 600px) {
+  .form-container, .search-container {
+    padding: 10px;
+  }
+  .journal-entry {
+    padding: 8px;
+  }
+  .entry-header h3 {
+    font-size: 1em;
+  }
+}
